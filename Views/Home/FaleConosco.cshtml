@@ -1,0 +1,65 @@
+@model FaleConosco
+@{
+    ViewData["Title"] = "Quem Somos";
+}
+
+    <h1>Fale Conosco</h1>
+    <h2>Contrate nossos serviços!</h2>
+    <form method="POST" asp-action="FaleConosco">
+        <p>
+            <lable asp-for="NomeCompleto">Nome Completo:</lable>
+            <input asp-for="NomeCompleto"/>
+        </p>
+        <p>
+            <lable asp-for="endereco">Endereço:</lable>
+            <input asp-for="endereco"/>
+        </p>
+        <p>
+            <lable asp-for="email">Email:</lable>
+            <input asp-for="email"/>
+        </p>
+        <p>
+            <lable asp-for="servico">Serviço:</lable>
+            <input asp-for="servico"/>
+          </p>
+          <p> 
+              <input type="submit" value="Cadastrar"/>
+          </p>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

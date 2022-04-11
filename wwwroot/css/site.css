@@ -1,0 +1,216 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+div.img {
+ 
+  display: inline-block;
+
+ /* height: 100px;
+  max-width: 100%;
+  max-height: 100%;
+*/
+}
+
+.img2 {
+  width: 200px;
+  height: 200px;
+}
+
+div.caixa_superior{
+  background: #45668D;
+}
+
+a.sup{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 14px;
+
+color: #ffffff;
+}
+
+div.titulo{
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 21px;
+
+color: #45668D;
+
+}
+
+div.caixa_amarela{
+ 
+width: 400px;
+height: 250px;
+top: 150px;
+
+background: #D2BC46;
+}
+div.list_servicos{
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 14px;
+  left: 10px;
+  
+  color: #FFFFFF;
+}
+
+h3{
+  text-align: left;
+  left: 10px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 23px;
+text-align: center;
+
+color: #45668D;
+}
+div.box{
+  display:inline-block;
+  align-items: center;
+}
+
+
+
+div.parceiros{
+  width: 650px;
+  height: 150px;
+  left: 150px;
+  top: 150px;
+ align-items: center;
+background: #D2BC46;
+padding: 10px;
+margin-left: 120px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 21px;
+line-height: 22px;
+
+color: #000000;
+}
+
+div.quem_somos{
+  margin: auto;
+  width: 50%;
+  
+  padding: 10px;
+width:600px;
+height: 600px;
+left: 43px;
+top: 86px;
+
+background: rgba(69, 102, 141, 0.75);
+}
+
+div.tit_quem{
+ position: absolute;
+width: 230px;
+height: 24px;
+left: 400px;
+top: 130px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #D2BC46;
+}
+
+div.bod_quem{
+  position: absolute;
+  
+width: 371px;
+height: 140px;
+left: 325px;
+top: 200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+}
